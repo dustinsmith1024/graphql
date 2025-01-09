@@ -1,0 +1,7 @@
+import { FastifyInstance } from 'fastify';
+import { MercuriusPlugin } from '../interfaces/mercurius-plugin.interface';
+export declare function registerMercuriusPlugin(
+  app: FastifyInstance,
+  plugins?: MercuriusPlugin[],
+): Promise<void>;
+//# sourceMappingURL=register-mercurius-plugin.util.d.ts.map

@@ -1,0 +1,1 @@
+{"version":3,"file":"register-mercurius-hooks.util.d.ts","sourceRoot":"","sources":["../../lib/utils/register-mercurius-hooks.util.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,SAAS,CAAC;AAC1C,OAAO,EAAE,oBAAoB,EAAE,MAAM,wCAAwC,CAAC;AAG9E,wBAAgB,sBAAsB,CACpC,GAAG,EAAE,eAAe,EACpB,KAAK,CAAC,EAAE,oBAAoB,GAAG,IAAI,EACnC,GAAG,GAAE,SAAS,GAAG,gBAA4B,GAC5C,IAAI,CAiBN"}

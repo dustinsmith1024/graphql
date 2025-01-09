@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.registerMercuriusPlugin = registerMercuriusPlugin;
+const validation_util_1 = require("./validation.util");
+async function registerMercuriusPlugin(app, plugins) {
+    if ((0, validation_util_1.isUndefined)(plugins) ||
+        (0, validation_util_1.isNull)(plugins) ||
+        !(0, validation_util_1.isArray)(plugins) ||
+        plugins.length === 0) {
+        return;
+    }
+    for (const plugin of plugins) {
+        await app.register(plugin.plugin, plugin.options);
+    }
+}
